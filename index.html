@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>2 лаба ( 3 вариант)</title>
+	<link rel="stylesheet" href="main.css">
+</head>
+<body>
+	<h1>Форма регистрации</h1>
+	<form action="#">
+		<div>	
+			<label for="login">Имя пользователя:</label>
+			<div class="input-holder">
+				<input type="text" id="login" required="required" placeholder="Roma" />
+				<span class="help-text"></span>
+			</div>
+		</div>
+
+		<div>
+			<label for="password">Пароль:</label>
+			<div class="input-holder">
+				<input type="password" id="password" required="required" placeholder="****" />
+				<span class="help-text"></span>
+			</div>
+		</div>
+
+		<div>
+			<label for="email">Почта:</label>
+			<div class="input-holder">	
+				<input type="email" id="email" placeholder="example@example.com" required="required" />
+				<span class="help-text"></span>
+			</div>
+		</div>
+		<div>	
+			<label for="phone">Телефон:</label>
+			<div class="input-holder">
+				<input type="tel" id="phone" placeholder="+3801234567" />
+				<span class="help-text"></span>
+			</div>
+		</div>
+
+		<button class="submit" type="submit">Отправить</button>
+		<input type="reset" value="Сбросить">
+	</form>
+</body>
+</html>
